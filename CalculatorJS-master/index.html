@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculator</title>
+</head>
+    <body>
+        <div class="container">
+            <div class="calculator">
+                <div class="display-container">
+                    <div class="display-wrapper">
+                    <div class="display">
+                            <span id="firts-number"></span>
+                            <span id="operator"></span>
+                            <span id="second-number"></span>
+                            <span id="result" ></span>
+                        </div><!-- display-wrapper -->
+                    </div><!-- display -->
+                </div><!-- display-container -->
+                <div class="numbers">
+                    <div class="btn-row">
+                        <span class="number-btn">7</span>
+                        <span class="number-btn">8</span>
+                        <span class="number-btn">9</span>
+                    </div>
+                    <div class="btn-row">
+                        <span class="number-btn">4</span>
+                        <span class="number-btn">5</span>
+                        <span class="number-btn">6</span>
+                    </div>
+                    <div class="btn-row">
+                        <span class="number-btn">1</span>
+                        <span class="number-btn">2</span>
+                        <span class="number-btn">3</span>
+                    </div>
+                    <div class="btn-row">
+                        <span id="zero" class="number-btn">0</span>
+                        <span class="number-btn">.</span>
+                        <span id="clear" class="clear-btn">C</span>
+                    </div>
+                </div><!-- numbers -->
+                <aside class="operators">
+                    <div class="btn-column">
+                        <span name="/" class="operator-btn"> / </span>
+                        <span name="*" class="operator-btn"> * </span>
+                        <span name="+" class="operator-btn"> + </span>
+                        <span name="-" class="operator-btn"> - </span>
+                        <span id="equal"> = </span>
+                    </div><!-- btn-column -->
+                </aside>
+            </div><!-- calculator -->
+        </div><!-- container -->
+    </body>
+    <script src="js/index.js"></script>
+</html>
